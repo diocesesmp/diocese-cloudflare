@@ -1,0 +1,10 @@
+name = "diocesecaruaru"
+compatibility_date = "2025-10-02"
+
+pages_build_output_dir = "dist"
+
+[build]
+command = "npm install && npm run build"
+
+[build.environment_variables]
+NODE_VERSION = "20"
